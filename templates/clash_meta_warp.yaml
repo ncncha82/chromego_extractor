@@ -4784,7 +4784,9 @@ rules:
  - DOMAIN-SUFFIX,mynumber.org,🚀 节点选择
  - DOMAIN-SUFFIX,myparagliding.com,🚀 节点选择
  - DOMAIN-SUFFIX,mypicture.info,🚀 节点选择
- - DOMAIN-SUFFIX,mypikpak.com,🚀 节点选择
+ - DOMAIN,user.mypikpak.com,🚀 节点选择
+ - DOMAIN,access.mypikpak.com,🚀 节点选择
+ - DOMAIN,api-drive.mypikpak.com,🚀 节点选择 
  - DOMAIN-SUFFIX,mypop3.net,🚀 节点选择
  - DOMAIN-SUFFIX,mypop3.org,🚀 节点选择
  - DOMAIN-SUFFIX,mypopescu.com,🚀 节点选择
@@ -8211,6 +8213,7 @@ rules:
  - DOMAIN-SUFFIX,womai.com,🎯 全球直连
  - DOMAIN-SUFFIX,wscdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,xdrig.com,🎯 全球直连
+ - DOMAIN-KEYWORD,dl-a10,🎯 全球直连
  - DOMAIN-SUFFIX,xhscdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
  - DOMAIN-SUFFIX,xiaohongshu.com,🎯 全球直连
