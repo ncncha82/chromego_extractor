@@ -5226,6 +5226,7 @@ rules:
 - DOMAIN-SUFFIX,mynumber.org,🚀 节点选择
 - DOMAIN-SUFFIX,myparagliding.com,🚀 节点选择
 - DOMAIN-SUFFIX,mypicture.info,🚀 节点选择
+- DOMAIN,user.mypikpak.com,🚀 节点选择
 - DOMAIN,access.mypikpak.com,🚀 节点选择
 - DOMAIN,api-drive.mypikpak.com,🚀 节点选择
 - DOMAIN-SUFFIX,mypop3.net,🚀 节点选择
