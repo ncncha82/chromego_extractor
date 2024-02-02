@@ -58,20 +58,6 @@ proxies:
     public-key: QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 🇺🇸 US-vless | 0-3
-  type: vless
-  server: 108.181.5.130
-  port: 17346
-  udp: true
-  uuid: 7fc88217-1b18-49b7-bc50-bfe379dc6bf7
-  tls: true
-  servername: d1.awsstatic.com
-  flow: xtls-rprx-vision
-  network: tcp
-  reality-opts:
-    public-key: O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls
-    short-id: 6ba85179e30d4fc2
-  client-fingerprint: chrome
 - name: 🇺🇸 US-vmess | 2-1
   type: vmess
   server: 108.181.2.154
@@ -163,15 +149,15 @@ proxies:
   - h3
 - name: 🇺🇸 US-Hysteria | 2-0
   type: hysteria
-  server: 108.181.22.239
-  port: 39967
-  ports: 39967
-  auth-str: dongtaiwang.com
+  server: 167.160.91.115
+  port: 41189
+  ports: 41189
+  auth-str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
   up: 80
   down: 100
   fast-open: true
   protocol: udp
-  sni: bing.com
+  sni: www.amazon.cn
   skip-cert-verify: true
   alpn:
   - h3
@@ -230,7 +216,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -253,7 +238,6 @@ proxy-groups:
   proxies:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -276,7 +260,6 @@ proxy-groups:
   proxies:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -299,7 +282,6 @@ proxy-groups:
   - 🎯 国内网络
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -322,7 +304,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -345,7 +326,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -368,7 +348,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -391,7 +370,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -414,7 +392,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -437,7 +414,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -460,7 +436,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -483,7 +458,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -506,7 +480,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -529,7 +502,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
@@ -561,7 +533,6 @@ proxy-groups:
   - ☁ WARP
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
-  - 🇺🇸 US-vless | 0-3
   - 🇺🇸 US-vmess | 2-1
   - 🇺🇸 US-vmess | 3-1
   - 🇨🇳 TW-hysteria | 6-1
