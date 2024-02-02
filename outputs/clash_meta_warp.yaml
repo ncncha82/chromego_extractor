@@ -15686,6 +15686,11 @@ rules:
 - PROCESS-NAME,WebTorrent Helper.exe,🎯 国内网络
 - PROCESS-NAME,qbittorrent.exe,🎯 国内网络
 - DOMAIN-SUFFIX,smtp,🎯 国内网络
+- DOMAIN-KEYWORD,freeok,🎯 国内网络
+- DOMAIN-KEYWORD,maolvys.com,🎯 国内网络
+- DOMAIN-SUFFIX,klyinshi.net,🎯 国内网络
+- DOMAIN-KEYWORD,adzhp,🎯 国内网络
+- DOMAIN-SUFFIX,ikzybf.com,🎯 国内网络
 - DOMAIN-KEYWORD,aria2,🎯 国内网络
 - PROCESS-NAME,DownloadService.exe,🎯 国内网络
 - PROCESS-NAME,Weiyun.exe,🎯 国内网络
