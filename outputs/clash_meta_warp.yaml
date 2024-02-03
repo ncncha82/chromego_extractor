@@ -72,22 +72,40 @@ proxies:
     public-key: abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 🇨🇦 CA-vmess | 2-1
-  type: vmess
-  server: 23.227.39.52
-  port: 8080
-  cipher: auto
-  uuid: 87ed7bbb-7ecb-435c-975b-cd55a760bcb5
-  alterId: 0
-  tls: false
+- name: 🇺🇸 US-ssr | 2-1
+  type: ssr
+  server: 108.181.2.157
+  port: 22222
+  password: dongtaiwang.com
+  cipher: dummy
+  obfs: plain
+  protocol: auth_chain_a
+- name: 🇺🇸 US-hysteria | 3-1
+  type: hysteria
+  server: 108.181.5.20
+  port: 22881
+  auth-str: dongtaiwang.com
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /H76zeQJw/
-    headers:
-      host: 0.freegradely.xyz
-- name: 🇺🇸 US-vmess | 3-1
+- name: 🇺🇸 US-vless | 4-1
+  type: vless
+  server: 108.181.2.156
+  port: 19695
+  udp: true
+  uuid: 906d367a-a5d2-467c-b476-a29c79215003
+  tls: true
+  servername: lol.secure.dyn.riotcdn.net
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+- name: 🇺🇸 US-vmess | 5-1
   type: vmess
   server: 108.181.5.18
   port: 18657
@@ -236,8 +254,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -259,8 +279,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -282,8 +304,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -305,8 +329,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -328,8 +354,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -351,8 +379,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -374,8 +404,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -397,8 +429,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -420,8 +454,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -443,8 +479,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -466,8 +504,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -489,8 +529,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -512,8 +554,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -535,8 +579,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -567,8 +613,10 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇨🇦 CA-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-ssr | 2-1
+  - 🇺🇸 US-hysteria | 3-1
+  - 🇺🇸 US-vless | 4-1
+  - 🇺🇸 US-vmess | 5-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
