@@ -53,14 +53,19 @@ proxies:
     public-key: abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
-- name: 🇫🇷 FR-ssr | 1-1
-  type: ssr
+- name: 🇫🇷 FR-tuic | 1-1
+  type: tuic
   server: 62.210.103.14
-  port: 33333
+  port: 44556
+  udp: true
+  uuid: 0d9d053c-81c8-4f26-9b5c-dff313dfdd70
   password: dongtaiwang.com
-  cipher: dummy
-  obfs: plain
-  protocol: auth_chain_a
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇺🇸 US-ssr | 2-1
   type: ssr
   server: 108.181.2.157
@@ -231,7 +236,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -256,7 +261,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -280,7 +285,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -304,7 +309,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -328,7 +333,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -352,7 +357,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -376,7 +381,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -400,7 +405,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -424,7 +429,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -448,7 +453,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -472,7 +477,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -496,7 +501,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
@@ -529,7 +534,7 @@ proxy-groups:
   - 🇫🇷 FR-vless | 0-1
   - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-vless | 0-3
-  - 🇫🇷 FR-ssr | 1-1
+  - 🇫🇷 FR-tuic | 1-1
   - 🇺🇸 US-ssr | 2-1
   - 🇺🇸 US-hysteria | 3-1
   - 🇺🇸 US-vless | 4-1
