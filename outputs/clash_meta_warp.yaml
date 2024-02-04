@@ -56,6 +56,19 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: 🇳🇱 NL-tuic | 2-1
+  type: tuic
+  server: 109.104.153.17
+  port: 22334
+  udp: true
+  uuid: 364d2d85-5bfd-463f-a3dd-a08012a2a6ce
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇨🇳 TW-hysteria | 6-1
   type: hysteria
   server: www2.dtku48.xyz
@@ -193,6 +206,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -213,6 +227,7 @@ proxy-groups:
   proxies:
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -233,6 +248,7 @@ proxy-groups:
   proxies:
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -253,6 +269,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -273,6 +290,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -293,6 +311,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -313,6 +332,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -333,6 +353,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -353,6 +374,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -373,6 +395,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -393,6 +416,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -413,6 +437,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -433,6 +458,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -453,6 +479,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -482,6 +509,7 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-tuic | 0-1
   - 🇫🇷 FR-tuic | 1-1
+  - 🇳🇱 NL-tuic | 2-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
