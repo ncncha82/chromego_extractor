@@ -30,19 +30,20 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: ☁ WARP前置节点
-- name: 🇺🇸 US-tuic | 0-1
-  type: tuic
-  server: 195.137.220.189
-  port: 33445
-  udp: true
-  uuid: 983a85bd-8fae-45d2-a702-5d00a383763e
-  password: dongtaiwang.com
+- name: 🇫🇷 FR-hysteria | 0-1
+  type: hysteria
+  server: 51.159.103.141
+  port: 18044
+  10000-13000: null
+  sni: bing.com
+  skip-cert-verify: true
   alpn:
   - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  protocol: udp
+  auth_str: dongtaiwang.com
+  up: 11
+  down: 55
+  hop_interval: 190
 - name: 🇺🇸 US-tuic | 1-1
   type: tuic
   server: 74.63.249.229
@@ -84,6 +85,19 @@ proxies:
     public-key: JMHogufiGO132mtTq26O34ssU8rjCkUcFC98PSeMF3A
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
+- name: 🇺🇸 US-tuic | 4-1
+  type: tuic
+  server: 195.137.220.189
+  port: 33445
+  udp: true
+  uuid: 983a85bd-8fae-45d2-a702-5d00a383763e
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇨🇳 TW-hysteria | 6-1
   type: hysteria
   server: www2.dtku48.xyz
@@ -209,10 +223,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -230,10 +245,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -251,10 +267,11 @@ proxy-groups:
   interval: 300
   strategy: consistent-hashing
   proxies:
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -272,10 +289,11 @@ proxy-groups:
   - ⚖ 负载均衡
   - ♻️ 自动选择
   - 🎯 国内网络
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -293,10 +311,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -314,10 +333,11 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -335,10 +355,11 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -356,10 +377,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -377,10 +399,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -398,10 +421,11 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -419,10 +443,11 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -440,10 +465,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -461,10 +487,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -482,10 +509,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -512,10 +540,11 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-tuic | 0-1
+  - 🇫🇷 FR-hysteria | 0-1
   - 🇺🇸 US-tuic | 1-1
   - 🇨🇳 TW-tuic | 2-1
   - 🇭🇰 HK-vless | 3-1
+  - 🇺🇸 US-tuic | 4-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
