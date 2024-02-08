@@ -24,12 +24,25 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇨🇳 TW-tuic | 2-1
+- name: 🇨🇳 TW-tuic | 1-1
   type: tuic
   server: 111.243.69.34
   port: 33098
   udp: true
   uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
+- name: 🇺🇸 US-tuic | 3-1
+  type: tuic
+  server: 108.181.5.18
+  port: 22889
+  udp: true
+  uuid: 5051cc18-0850-48fb-9036-0b4f9680571b
   password: dongtaiwang.com
   alpn:
   - h3
@@ -162,7 +175,8 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -181,7 +195,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -199,7 +214,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -217,7 +233,8 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -235,7 +252,8 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -253,7 +271,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -271,7 +290,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -289,7 +309,8 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -307,7 +328,8 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -325,7 +347,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -343,7 +366,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -361,7 +385,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -388,7 +413,8 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
-  - 🇨🇳 TW-tuic | 2-1
+  - 🇨🇳 TW-tuic | 1-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
