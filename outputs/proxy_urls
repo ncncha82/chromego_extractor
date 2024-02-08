@@ -1,8 +1,10 @@
+vless://627016c6-a565-47f9-93cf-df937b38bbb7@cloudflare.cfgo.cc:2053?encryption=none&flow=&security=tls&sni=4.dtku43.xyz&fp=chrome&insecure=0&type=ws&serviceName=&host=4.dtku43.xyz&path=/hcxiws#🇺🇸 US-vless | 0-1
+vless://e80e0204-ddf1-4f59-8e75-44ea502aabae@23.227.38.54:2096?encryption=none&flow=&security=tls&sni=2.dtku43.xyz&fp=chrome&insecure=0&type=ws&serviceName=&host=2.dtku43.xyz&path=/mjyrws#🇨🇦 CA-vless | 2-1
 hysteria://www2.dtku48.xyz:22334/?protocol=udp&insecure=1&peer=&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇨🇳 TW-hysteria | 6-1
 hysteria2://dongtaiwang.com@51.158.54.46:44550/?sni=bing.com&insecure=1#🇫🇷 FR-hysteria2 | 7-1
 hysteria://www.dtku50.xyz:18470/?protocol=udp&insecure=1&peer=www.amazon.cn&auth=dongtaiwang.com&upmbps=2&downmbps=10&alpn=h3&obfs=#🇨🇳 TW-hysteria | 9-1
 hysteria://51.158.54.46:55396/?protocol=udp&insecure=1&peer=youku.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 0-0
-hysteria://173.234.25.52:30072/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 1-0
+hysteria://173.234.25.52:48919/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 1-0
 hysteria://108.181.22.239:39967/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 2-0
 hysteria://167.160.91.115:41189/?protocol=udp&insecure=1&peer=www.amazon.cn&auth=bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 3-0
 hysteria2://dongtaiwang.com@62.210.103.0:22483/?sni=www.bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 0-0
