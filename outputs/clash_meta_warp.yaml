@@ -30,51 +30,66 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: ☁ WARP前置节点
-- name: 🇺🇸 US-vless | 0-1
-  type: vless
-  server: cloudflare.cfgo.cc
-  port: 2053
-  uuid: 627016c6-a565-47f9-93cf-df937b38bbb7
-  tls: true
-  servername: 4.dtku43.xyz
+- name: 🇺🇸 US-vmess | 0-1
+  type: vmess
+  server: www.darkroom.lol
+  port: 8080
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /hcxiws
+    path: /
     headers:
-      host: 4.dtku43.xyz
-  client-fingerprint: chrome
-- name: 🇺🇸 US-tuic | 1-1
-  type: tuic
-  server: 109.104.152.161
-  port: 44550
-  udp: true
-  uuid: 0c008b79-86e6-403d-b684-8ba559562c9e
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: 🇨🇦 CA-vless | 2-1
-  type: vless
-  server: 23.227.38.54
-  port: 2096
-  uuid: e80e0204-ddf1-4f59-8e75-44ea502aabae
-  tls: true
-  servername: 2.dtku43.xyz
+      host: www.darkroom.lol
+- name: 🇨🇳 CN-vmess | 0-2
+  type: vmess
+  server: data-us-v1.shwjfkw.cn
+  port: 20401
+  cipher: auto
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /mjyrws
+    path: /debian
     headers:
-      host: 2.dtku43.xyz
-  client-fingerprint: chrome
-- name: 🇺🇸 US-tuic | 3-1
+      host: data-us-v1.shwjfkw.cn
+- name: 🇨🇳 CN-ss | 0-3
+  type: ss
+  server: service.ouluyun9803.com
+  port: 20003
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  cipher: chacha20-ietf-poly1305
+- name: 🏳 Unknown-vmess | 0-4
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: server26.beheshtbaneh.com
+- name: 🇨🇳 CN-ss | 0-5
+  type: ss
+  server: service.ouluyun9803.com
+  port: 20005
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳 TW-tuic | 1-1
   type: tuic
-  server: 64.31.55.124
-  port: 44556
+  server: 111.243.97.2
+  port: 33098
   udp: true
-  uuid: a72c47f7-5d2d-4029-a5ca-997ac2d1c956
+  uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
   password: dongtaiwang.com
   alpn:
   - h3
@@ -207,10 +222,12 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -228,10 +245,12 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -249,10 +268,12 @@ proxy-groups:
   interval: 300
   strategy: consistent-hashing
   proxies:
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -270,10 +291,12 @@ proxy-groups:
   - ⚖ 负载均衡
   - ♻️ 自动选择
   - 🎯 国内网络
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -291,10 +314,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -312,10 +337,12 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -333,10 +360,12 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -354,10 +383,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -375,10 +406,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -396,10 +429,12 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -417,10 +452,12 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -438,10 +475,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -459,10 +498,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -480,10 +521,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
@@ -510,10 +553,12 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-vless | 0-1
-  - 🇺🇸 US-tuic | 1-1
-  - 🇨🇦 CA-vless | 2-1
-  - 🇺🇸 US-tuic | 3-1
+  - 🇺🇸 US-vmess | 0-1
+  - 🇨🇳 CN-vmess | 0-2
+  - 🇨🇳 CN-ss | 0-3
+  - 🏳 Unknown-vmess | 0-4
+  - 🇨🇳 CN-ss | 0-5
+  - 🇨🇳 TW-tuic | 1-1
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇨🇳 TW-hysteria | 9-1
