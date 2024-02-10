@@ -32,59 +32,65 @@ proxies:
   dialer-proxy: ☁ WARP前置节点
 - name: 🇨🇳 CN-ss | 0-1
   type: ss
+  server: lg3.dtku41.xyz
+  port: 44672
+  password: dongtaiwang.com
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳 CN-ss | 0-2
+  type: ss
   server: foshan.chiguayun.shop
   port: 27103
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-2
+- name: 🇨🇳 CN-ss | 0-3
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10809
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-3
+- name: 🇨🇳 CN-ss | 0-4
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10813
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-4
+- name: 🇨🇳 CN-ss | 0-5
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10815
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-5
+- name: 🇨🇳 CN-ss | 0-6
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10803
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-6
+- name: 🇨🇳 CN-ss | 0-7
   type: ss
   server: hefei.chiguayun.shop
   port: 27101
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-7
+- name: 🇨🇳 CN-ss | 0-8
   type: ss
   server: yd.qianggewangluo.buzz
   port: 10817
   password: 6f35bc86-d226-4dd0-8f4c-708f23077d24
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-8
+- name: 🇨🇳 CN-ss | 0-9
   type: ss
   server: hefei.chiguayun.shop
   port: 27105
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸 US-ss | 0-9
+- name: 🇺🇸 US-ss | 0-10
   type: ss
   server: uydyfkghjrtcsdx.youcansee.cyou
   port: 20167
   password: ca7e0c98-136d-472c-927b-b56bcba722e3
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳 CN-ss | 0-10
+- name: 🇨🇳 CN-ss | 0-11
   type: ss
   server: zhejiang.52vpn.top
   port: 32143
@@ -176,6 +182,12 @@ proxies:
   server: foshan.chiguayun.shop
   port: 27102
   password: f4b81edb-73a5-41fa-9086-6f446061815d
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸 US-ss | 2-1
+  type: ss
+  server: 109.104.152.144
+  port: 111
+  password: dongtaiwang.com
   cipher: chacha20-ietf-poly1305
 - name: 🏳 Unknown-vless | 5-1
   type: vless
@@ -1954,8 +1966,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -1966,6 +1979,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2128,8 +2142,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -2140,6 +2155,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2302,8 +2318,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -2314,6 +2331,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2476,8 +2494,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -2488,6 +2507,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2650,8 +2670,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -2662,6 +2683,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2824,8 +2846,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -2836,6 +2859,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2998,8 +3022,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -3010,6 +3035,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3172,8 +3198,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -3184,6 +3211,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3346,8 +3374,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -3358,6 +3387,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3520,8 +3550,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -3532,6 +3563,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3694,8 +3726,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -3706,6 +3739,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3868,8 +3902,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -3880,6 +3915,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -4042,8 +4078,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -4054,6 +4091,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -4216,8 +4254,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -4228,6 +4267,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -4399,8 +4439,9 @@ proxy-groups:
   - 🇨🇳 CN-ss | 0-6
   - 🇨🇳 CN-ss | 0-7
   - 🇨🇳 CN-ss | 0-8
-  - 🇺🇸 US-ss | 0-9
-  - 🇨🇳 CN-ss | 0-10
+  - 🇨🇳 CN-ss | 0-9
+  - 🇺🇸 US-ss | 0-10
+  - 🇨🇳 CN-ss | 0-11
   - 🇨🇳 CN-vmess | 1-1
   - 🇨🇳 CN-ss | 1-2
   - 🏳 Unknown-vmess | 1-3
@@ -4411,6 +4452,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-9
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
+  - 🇺🇸 US-ss | 2-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
