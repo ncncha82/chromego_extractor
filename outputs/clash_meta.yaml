@@ -171,6 +171,20 @@ proxies:
   port: 27102
   password: f4b81edb-73a5-41fa-9086-6f446061815d
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸 US-vless | 4-1
+  type: vless
+  server: 109.104.152.101
+  port: 11111
+  udp: true
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  tls: true
+  servername: m.media-amazon.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 🏳 Unknown-vless | 5-1
   type: vless
   server: 198.41.193.226
@@ -1971,6 +1985,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2148,6 +2163,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2324,6 +2340,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2500,6 +2517,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2676,6 +2694,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -2852,6 +2871,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3028,6 +3048,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3204,6 +3225,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3380,6 +3402,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3556,6 +3579,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3732,6 +3756,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -3908,6 +3933,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
@@ -4093,6 +4119,7 @@ proxy-groups:
   - 🇨🇳 CN-ss | 1-10
   - 🇨🇳 CN-ss | 1-11
   - 🇨🇳 CN-ss | 1-12
+  - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
   - 🇺🇸 US-vless | 5-3
