@@ -11,13 +11,17 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇺🇸 US-vless | 0-1
-  type: vless
-  server: 108.181.5.18
-  port: 22222
-  uuid: 1bf69b3a-4673-4d02-a311-cb6380eaddce
-  tls: false
-  network: tcp
+- name: 🇺🇸 US-hysteria2 | 0-1
+  type: hysteria2
+  server: 64.31.55.30
+  port: 20011
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-tuic | 1-1
   type: tuic
   server: 109.104.152.144
@@ -31,28 +35,26 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇨🇳 TW-vmess | 2-1
-  type: vmess
-  server: www.dtku40.xyz
-  port: 34500
-  cipher: auto
-  uuid: fe3800ef-a9e8-4943-aaf2-6d99dac75c32
-  alterId: 0
+- name: 🇺🇸 US-vless | 2-1
+  type: vless
+  server: 108.181.5.18
+  port: 22222
+  uuid: 1bf69b3a-4673-4d02-a311-cb6380eaddce
   tls: false
-  skip-cert-verify: true
-  servername: ''
   network: tcp
-- name: 🇺🇸 US-vmess | 3-1
-  type: vmess
-  server: 109.104.152.144
-  port: 12300
-  cipher: auto
-  uuid: 4be33771-099d-4d65-9426-09bed47eb41f
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  servername: ''
-  network: tcp
+- name: 🇺🇸 US-tuic | 3-1
+  type: tuic
+  server: 109.104.152.101
+  port: 22288
+  udp: true
+  uuid: 7bda06fd-e4af-4115-8aa3-f021832cfa78
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇺🇸 US-vless | 4-1
   type: vless
   server: 109.104.152.101
@@ -1845,10 +1847,10 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2005,10 +2007,10 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2164,10 +2166,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2323,10 +2325,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2482,10 +2484,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2641,10 +2643,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2800,10 +2802,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2959,10 +2961,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3118,10 +3120,10 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3277,10 +3279,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3436,10 +3438,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3595,10 +3597,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3763,10 +3765,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇨🇳 TW-vmess | 2-1
-  - 🇺🇸 US-vmess | 3-1
+  - 🇺🇸 US-vless | 2-1
+  - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
