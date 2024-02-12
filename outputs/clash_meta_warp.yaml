@@ -51,7 +51,7 @@ proxies:
 - name: 🇨🇳 TW-vmess | 1-1
   type: vmess
   server: www.dtku40.xyz
-  port: 10099
+  port: 34500
   cipher: auto
   uuid: fe3800ef-a9e8-4943-aaf2-6d99dac75c32
   alterId: 0
@@ -72,6 +72,20 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: 🇫🇷 FR-vless | 2-1
+  type: vless
+  server: 51.159.77.153
+  port: 11112
+  udp: true
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  tls: true
+  servername: m.media-amazon.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 🇺🇸 US-vless | 4-1
   type: vless
   server: 109.104.152.101
@@ -1869,6 +1883,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2029,6 +2044,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2189,6 +2205,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2349,6 +2366,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2509,6 +2527,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2669,6 +2688,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2829,6 +2849,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -2989,6 +3010,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3149,6 +3171,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3309,6 +3332,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3469,6 +3493,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3629,6 +3654,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3789,6 +3815,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -3949,6 +3976,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
@@ -4118,6 +4146,7 @@ proxy-groups:
   - 🇺🇸 US-vmess | 0-2
   - 🇨🇳 TW-vmess | 1-1
   - 🇺🇸 US-tuic | 1-2
+  - 🇫🇷 FR-vless | 2-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
   - 🏳 Unknown-vless | 5-2
