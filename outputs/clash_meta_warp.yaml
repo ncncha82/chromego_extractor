@@ -54,13 +54,6 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-vless | 2-1
-  type: vless
-  server: 108.181.5.18
-  port: 22222
-  uuid: 1bf69b3a-4673-4d02-a311-cb6380eaddce
-  tls: false
-  network: tcp
 - name: 🇺🇸 US-tuic | 3-1
   type: tuic
   server: 109.104.152.101
@@ -1852,10 +1845,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 3-0
+- name: 🇫🇷 FR-Hysteria2 | 3-0
   type: hysteria2
-  server: 108.181.24.77
-  port: 43656
+  server: 51.159.77.198
+  port: 29277
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -1869,7 +1862,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2020,7 +2012,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2029,7 +2021,6 @@ proxy-groups:
   proxies:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2180,7 +2171,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: ⚖ 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
@@ -2189,7 +2180,6 @@ proxy-groups:
   proxies:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2340,7 +2330,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: ☁ WARP前置节点
   type: select
   proxies:
@@ -2349,7 +2339,6 @@ proxy-groups:
   - 🎯 国内网络
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2500,7 +2489,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -2509,7 +2498,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2660,7 +2648,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -2669,7 +2657,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2820,7 +2807,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -2829,7 +2816,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2980,7 +2966,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -2989,7 +2975,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3140,7 +3125,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📲 电报信息
   type: select
   proxies:
@@ -3149,7 +3134,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3300,7 +3284,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -3309,7 +3293,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3460,7 +3443,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -3469,7 +3452,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3620,7 +3602,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -3629,7 +3611,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3780,7 +3761,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -3789,7 +3770,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3940,7 +3920,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -3949,7 +3929,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -4100,7 +4079,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🎯 国内网络
   type: select
   proxies:
@@ -4118,7 +4097,6 @@ proxy-groups:
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-vless | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-vless | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -4269,7 +4247,7 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇺🇸 US-Hysteria2 | 1-0
   - 🇫🇷 FR-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 国内网络
 - DOMAIN-SUFFIX,ip6-localhost,🎯 国内网络
