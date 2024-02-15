@@ -41,6 +41,17 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: 🇺🇸 US-hysteria2 | 0-2
+  type: hysteria2
+  server: 109.104.152.144
+  port: 51100
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-tuic | 1-1
   type: tuic
   server: 109.104.152.144
@@ -1873,6 +1884,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2033,6 +2045,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2193,6 +2206,7 @@ proxy-groups:
   strategy: consistent-hashing
   proxies:
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2353,6 +2367,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 国内网络
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2513,6 +2528,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2673,6 +2689,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2833,6 +2850,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -2993,6 +3011,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -3153,6 +3172,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -3313,6 +3333,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -3473,6 +3494,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -3633,6 +3655,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -3793,6 +3816,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -3953,6 +3977,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
@@ -4122,6 +4147,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-hysteria2 | 0-1
+  - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
   - 🇺🇸 US-tuic | 2-1
   - 🇺🇸 US-tuic | 3-1
