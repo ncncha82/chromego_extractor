@@ -65,19 +65,17 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 US-tuic | 2-1
-  type: tuic
+- name: 🇺🇸 US-hysteria2 | 2-1
+  type: hysteria2
   server: 109.104.152.101
-  port: 31102
-  udp: true
-  uuid: 7bda06fd-e4af-4115-8aa3-f021832cfa78
+  port: 16610
   password: dongtaiwang.com
   alpn:
   - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
+  sni: bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇺🇸 US-tuic | 3-1
   type: tuic
   server: 109.104.152.101
@@ -1886,7 +1884,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2047,7 +2045,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2208,7 +2206,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2369,7 +2367,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2530,7 +2528,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2691,7 +2689,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -2852,7 +2850,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3013,7 +3011,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3174,7 +3172,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3335,7 +3333,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3496,7 +3494,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3657,7 +3655,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3818,7 +3816,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -3979,7 +3977,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
@@ -4149,7 +4147,7 @@ proxy-groups:
   - 🇺🇸 US-hysteria2 | 0-1
   - 🇺🇸 US-hysteria2 | 0-2
   - 🇺🇸 US-tuic | 1-1
-  - 🇺🇸 US-tuic | 2-1
+  - 🇺🇸 US-hysteria2 | 2-1
   - 🇺🇸 US-tuic | 3-1
   - 🇺🇸 US-tuic | 4-1
   - 🏳 Unknown-vless | 5-1
