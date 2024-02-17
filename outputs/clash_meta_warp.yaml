@@ -45,6 +45,20 @@ proxies:
     public-key: fgV5xXgT53rlP82phUB6BpbKwvH8cqvomdEnrqlErko
     short-id: 6ba85179e30d4fc2
   client-fingerprint: chrome
+- name: 🇺🇸 US-vless | 0-2
+  type: vless
+  server: 108.181.5.19
+  port: 55555
+  udp: true
+  uuid: 9cc39477-0d85-4419-84d4-fb7fc77668b3
+  tls: true
+  servername: m.media-amazon.com
+  flow: xtls-rprx-vision
+  network: tcp
+  reality-opts:
+    public-key: yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
 - name: 🇺🇸 US-hysteria2 | 1-1
   type: hysteria2
   server: 109.104.152.242
@@ -1840,6 +1854,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -1997,6 +2012,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -2154,6 +2170,7 @@ proxy-groups:
   strategy: consistent-hashing
   proxies:
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -2311,6 +2328,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 国内网络
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -2468,6 +2486,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -2625,6 +2644,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -2782,6 +2802,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -2939,6 +2960,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -3096,6 +3118,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -3253,6 +3276,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -3410,6 +3434,7 @@ proxy-groups:
   - 🚀 节点选择
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -3567,6 +3592,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -3724,6 +3750,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -3881,6 +3908,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
@@ -4047,6 +4075,7 @@ proxy-groups:
   - 🎯 国内网络
   - ☁ WARP
   - 🇺🇸 US-vless | 0-1
+  - 🇺🇸 US-vless | 0-2
   - 🇺🇸 US-hysteria2 | 1-1
   - 🏳 Unknown-vless | 4-1
   - 🏳 Unknown-vless | 4-2
