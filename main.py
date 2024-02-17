@@ -291,6 +291,7 @@ def write_proxy_urls_file(output_file, proxies):
                 continue
 
             # print(proxy_url)
+            logging.info(proxy_url)
             proxy_urls.append(proxy_url)
         except Exception as e:
             logging.error(f'处理 {proxy["name"]} 时遇到问题: {e}')
@@ -319,7 +320,7 @@ if __name__ == "__main__":
     # 处理hysteria2 urls
     process_urls('./urls/hysteria2_urls.txt', process_hysteria2)
 
-    # logging.info(servers_list)
+    logging.info(servers_list)
 
     # 写入clash meta配置
     write_clash_meta_profile('./templates/clash_meta.yaml', './outputs/clash_meta.yaml', extracted_proxies)
