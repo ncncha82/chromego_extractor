@@ -44,7 +44,7 @@ proxies:
 - name: 🇨🇦 CA-vmess | 1-1
   type: vmess
   server: 23.227.38.220
-  port: 443
+  port: 2053
   cipher: auto
   uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
   alterId: 0
@@ -59,7 +59,7 @@ proxies:
 - name: 🇨🇦 CA-vmess | 1-2
   type: vmess
   server: 23.227.39.210
-  port: 443
+  port: 2053
   cipher: auto
   uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
   alterId: 0
@@ -1732,6 +1732,36 @@ proxies:
     path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
     headers:
       host: nest-emily-healing-h.trycloudflare.com
+- name: 🇨🇦 CA-vmess | 5-1
+  type: vmess
+  server: 23.227.38.220
+  port: 443
+  cipher: auto
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: pcs-referenced-camera-concerns.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+    headers:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+- name: 🇨🇦 CA-vmess | 5-2
+  type: vmess
+  server: 23.227.39.210
+  port: 443
+  cipher: auto
+  uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: sequence-worse-councils-nest.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+    headers:
+      host: sequence-worse-councils-nest.trycloudflare.com
 - name: 🇨🇳 TW-hysteria | 6-1
   type: hysteria
   server: www2.dtku48.xyz
@@ -1985,6 +2015,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2117,6 +2149,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2249,6 +2283,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2381,6 +2417,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2513,6 +2551,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2645,6 +2685,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2777,6 +2819,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -2909,6 +2953,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3041,6 +3087,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3173,6 +3221,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3305,6 +3355,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3437,6 +3489,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3569,6 +3623,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3701,6 +3757,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
@@ -3842,6 +3900,8 @@ proxy-groups:
   - 🇺🇸 US-vmess | 4-108
   - 🇺🇸 US-vmess | 4-109
   - 🇨🇦 CA-vmess | 4-110
+  - 🇨🇦 CA-vmess | 5-1
+  - 🇨🇦 CA-vmess | 5-2
   - 🇨🇳 TW-hysteria | 6-1
   - 🇫🇷 FR-hysteria2 | 7-1
   - 🇺🇸 US-hysteria2 | 8-1
