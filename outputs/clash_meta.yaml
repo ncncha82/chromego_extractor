@@ -38,22 +38,22 @@ proxies:
   hop_interval: 10
 - name: 🏳 Unknown-vless | 2-1
   type: vless
-  server: yh7.dtku41.xyz
-  port: 443
+  server: 104.26.9.12
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: 🇺🇸 US-vless | 2-2
+- name: 🏳 Unknown-vless | 2-2
   type: vless
-  server: yh9.dtku41.xyz
-  port: 443
+  server: 104.19.21.24
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -62,10 +62,10 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: 🏳 Unknown-vless | 2-3
   type: vless
-  server: yh6.dtku41.xyz
-  port: 443
+  server: 104.26.9.54
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
@@ -74,19 +74,64 @@ proxies:
       host: giving-hide-provisions-corrected.trycloudflare.com
 - name: 🏳 Unknown-vless | 2-4
   type: vless
-  server: yh1.dtku41.xyz
-  port: 443
+  server: 104.19.38.28
+  port: 80
   uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: true
+  tls: false
   servername: giving-hide-provisions-corrected.trycloudflare.com
   network: ws
   ws-opts:
     path: /argox-vl?ed=2048
     headers:
       host: giving-hide-provisions-corrected.trycloudflare.com
-- name: 🇺🇸 US-vmess | 3-1
+- name: 🏳 Unknown-vmess | 3-1
   type: vmess
-  server: yh4.dtku41.xyz
+  server: 104.26.9.22
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🇺🇸 US-vmess | 3-2
+  type: vmess
+  server: 172.64.97.235
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🏳 Unknown-vmess | 3-3
+  type: vmess
+  server: 104.19.38.28
+  port: 8080
+  cipher: auto
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    headers:
+      host: dual-nothing-prep-exit.trycloudflare.com
+- name: 🏳 Unknown-vmess | 3-4
+  type: vmess
+  server: 104.19.38.48
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -276,10 +321,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -302,10 +350,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -327,10 +378,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -352,10 +406,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -377,10 +434,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -402,10 +462,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -427,10 +490,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -452,10 +518,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -477,10 +546,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -502,10 +574,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -527,10 +602,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -552,10 +630,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
@@ -586,10 +667,13 @@ proxy-groups:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vless | 2-1
-  - 🇺🇸 US-vless | 2-2
+  - 🏳 Unknown-vless | 2-2
   - 🏳 Unknown-vless | 2-3
   - 🏳 Unknown-vless | 2-4
-  - 🇺🇸 US-vmess | 3-1
+  - 🏳 Unknown-vmess | 3-1
+  - 🇺🇸 US-vmess | 3-2
+  - 🏳 Unknown-vmess | 3-3
+  - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
