@@ -209,7 +209,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇭🇰 HK-vless | 10-1
+- name: 🇭🇰 HK-vless | 9-1
   server: cdnhk.huabuxiang.vip
   port: 2052
   client-fingerprint: random
@@ -332,7 +332,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -361,7 +361,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -389,7 +389,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -417,7 +417,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -445,7 +445,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -473,7 +473,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -501,7 +501,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -529,7 +529,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -557,7 +557,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -585,7 +585,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -613,7 +613,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -641,7 +641,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
@@ -678,7 +678,7 @@ proxy-groups:
   - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
-  - 🇭🇰 HK-vless | 10-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
