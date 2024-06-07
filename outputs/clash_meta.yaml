@@ -36,54 +36,6 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: 🏳 Unknown-vless | 2-1
-  type: vless
-  server: 104.26.9.12
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vl?ed=2048
-    headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-- name: 🏳 Unknown-vless | 2-2
-  type: vless
-  server: 104.19.21.24
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vl?ed=2048
-    headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-- name: 🏳 Unknown-vless | 2-3
-  type: vless
-  server: 104.26.9.54
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vl?ed=2048
-    headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
-- name: 🏳 Unknown-vless | 2-4
-  type: vless
-  server: 104.19.38.28
-  port: 80
-  uuid: 1a62379a-e160-45a3-8361-3e6b5021d192
-  tls: false
-  servername: giving-hide-provisions-corrected.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /argox-vl?ed=2048
-    headers:
-      host: giving-hide-provisions-corrected.trycloudflare.com
 - name: 🏳 Unknown-vmess | 3-1
   type: vmess
   server: 104.26.9.22
@@ -320,10 +272,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -349,10 +297,6 @@ proxy-groups:
   proxies:
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -377,10 +321,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -405,10 +345,6 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -433,10 +369,6 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -461,10 +393,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -489,10 +417,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -517,10 +441,6 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -545,10 +465,6 @@ proxy-groups:
   - 🚀 节点选择
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -573,10 +489,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -601,10 +513,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -629,10 +537,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
@@ -666,10 +570,6 @@ proxy-groups:
   - 🎯 全球直连
   - 🇺🇸 US-tuic | 0-1
   - 🇺🇸 US-hysteria | 1-1
-  - 🏳 Unknown-vless | 2-1
-  - 🏳 Unknown-vless | 2-2
-  - 🏳 Unknown-vless | 2-3
-  - 🏳 Unknown-vless | 2-4
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
