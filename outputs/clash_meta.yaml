@@ -11,31 +11,6 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇺🇸 US-tuic | 0-1
-  server: 74.63.233.74
-  port: 33441
-  type: tuic
-  uuid: a258065f-9502-4fe6-b3ed-cf7440e25150
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: 🇺🇸 US-hysteria | 1-1
-  type: hysteria
-  server: 108.181.5.22
-  port: 44557
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  auth_str: dongtaiwang.com
-  up: 11
-  down: 55
-  hop_interval: 10
 - name: 🏳 Unknown-vmess | 3-1
   type: vmess
   server: 104.26.9.22
@@ -120,18 +95,6 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: 🇺🇸 US-tuic | 5-1
-  server: 108.181.5.132
-  port: 9727
-  type: tuic
-  uuid: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-  password: 02b0c83f-5fa4-4f08-8a9f-d9cae4a7a419
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🇺🇸 US-ss | 6-1
   type: ss
   server: 109.104.152.186
@@ -178,9 +141,9 @@ proxies:
   udp: true
 - name: 🇺🇸 US-Hysteria | 0-0
   type: hysteria
-  server: 108.181.5.133
-  port: 26022
-  ports: 26022
+  server: 109.104.152.194
+  port: 58510
+  ports: 58510
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -270,14 +233,11 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -295,14 +255,11 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -319,14 +276,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -343,14 +297,11 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -367,14 +318,11 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -391,14 +339,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -415,14 +360,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -439,14 +381,11 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -463,14 +402,11 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -487,14 +423,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -511,14 +444,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -535,14 +465,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
@@ -568,14 +495,11 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-tuic | 0-1
-  - 🇺🇸 US-hysteria | 1-1
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
   - 🏳 Unknown-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
-  - 🇺🇸 US-tuic | 5-1
   - 🇺🇸 US-ss | 6-1
   - 🇺🇸 US-hysteria2 | 7-1
   - 🇭🇰 HK-vless | 9-1
