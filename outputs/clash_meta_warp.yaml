@@ -60,9 +60,9 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
     headers:
       host: luther-soon-uploaded-anxiety.trycloudflare.com
-- name: 🏳 Unknown-vmess | 3-3
+- name: 🇨🇦 CA-vmess | 3-3
   type: vmess
-  server: 104.19.38.28
+  server: 23.227.38.7
   port: 8080
   cipher: auto
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -249,7 +249,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -270,7 +270,7 @@ proxy-groups:
   proxies:
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -291,7 +291,7 @@ proxy-groups:
   proxies:
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -312,7 +312,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -333,7 +333,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -354,7 +354,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -375,7 +375,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -396,7 +396,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -417,7 +417,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -438,7 +438,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -459,7 +459,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -480,7 +480,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -501,7 +501,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -522,7 +522,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
@@ -552,7 +552,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-vmess | 3-1
   - 🇺🇸 US-vmess | 3-2
-  - 🏳 Unknown-vmess | 3-3
+  - 🇨🇦 CA-vmess | 3-3
   - 🏳 Unknown-vmess | 3-4
   - 🇺🇸 US-vless | 4-1
   - 🇺🇸 US-ss | 6-1
