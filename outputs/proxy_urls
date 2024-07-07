@@ -4,6 +4,6 @@ hysteria://62.210.243.131:18702/?protocol=udp&insecure=1&peer=bing.com&auth=dong
 hysteria://62.210.243.131:18702/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 2-0
 hysteria://62.210.243.131:18702/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇫🇷 FR-Hysteria | 3-0
 hysteria2://dongtaiwang.com@166.88.159.24:40931/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 0-0
-hysteria2://dongtaiwang.com@166.88.159.24:40931/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 1-0
+hysteria2://dongtaiwang.com@51.159.2.179:23499/?sni=bing.com&insecure=1#🇫🇷 FR-Hysteria2 | 1-0
 hysteria2://dongtaiwang.com@166.88.159.24:40931/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 2-0
 hysteria2://dongtaiwang.com@166.88.159.24:40931/?sni=www.bing.com&insecure=1#🇺🇸 US-Hysteria2 | 3-0
