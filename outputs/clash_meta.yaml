@@ -11,18 +11,6 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇫🇷 FR-tuic | 1-1
-  server: 51.159.34.216
-  port: 33445
-  type: tuic
-  uuid: 1607c99b-7df5-4b58-a315-a440f9afde40
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  disable-sni: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: 🏳 Unknown-ss | 4-1
   type: ss
   server: 23.170.40.77
@@ -143,7 +131,6 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -160,7 +147,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -176,7 +162,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -192,7 +177,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -208,7 +192,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -224,7 +207,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -240,7 +222,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -256,7 +237,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -272,7 +252,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -288,7 +267,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -304,7 +282,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -320,7 +297,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
@@ -345,7 +321,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇫🇷 FR-tuic | 1-1
   - 🏳 Unknown-ss | 4-1
   - 🇭🇰 HK-vless | 9-1
   - 🇫🇷 FR-Hysteria | 0-0
