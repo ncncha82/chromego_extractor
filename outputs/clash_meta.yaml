@@ -93,13 +93,13 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇺🇸 US-Hysteria2 | 0-0
+- name: 🇫🇷 FR-Hysteria2 | 0-0
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 - name: 🇫🇷 FR-Hysteria2 | 1-0
   type: hysteria2
@@ -109,21 +109,21 @@ proxies:
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 2-0
+- name: 🇫🇷 FR-Hysteria2 | 2-0
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
-- name: 🇺🇸 US-Hysteria2 | 3-0
+- name: 🇫🇷 FR-Hysteria2 | 3-0
   type: hysteria2
-  server: 166.88.159.24
-  port: 40931
+  server: 51.159.2.179
+  port: 23499
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
@@ -137,10 +137,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -153,10 +153,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📺 巴哈姆特
   type: select
   proxies:
@@ -168,10 +168,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📺 哔哩哔哩
   type: select
   proxies:
@@ -183,10 +183,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🌏 国内媒体
   type: select
   proxies:
@@ -198,10 +198,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🌍 国外媒体
   type: select
   proxies:
@@ -213,10 +213,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📲 电报信息
   type: select
   proxies:
@@ -228,10 +228,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
@@ -243,10 +243,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -258,10 +258,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -273,10 +273,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 📢 谷歌FCM
   type: select
   proxies:
@@ -288,10 +288,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🤖 OpenAI
   type: select
   proxies:
@@ -303,10 +303,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -327,10 +327,10 @@ proxy-groups:
   - 🇫🇷 FR-Hysteria | 1-0
   - 🇫🇷 FR-Hysteria | 2-0
   - 🇫🇷 FR-Hysteria | 3-0
-  - 🇺🇸 US-Hysteria2 | 0-0
+  - 🇫🇷 FR-Hysteria2 | 0-0
   - 🇫🇷 FR-Hysteria2 | 1-0
-  - 🇺🇸 US-Hysteria2 | 2-0
-  - 🇺🇸 US-Hysteria2 | 3-0
+  - 🇫🇷 FR-Hysteria2 | 2-0
+  - 🇫🇷 FR-Hysteria2 | 3-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
