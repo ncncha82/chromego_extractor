@@ -22,6 +22,18 @@ proxies:
     host: nijigen-works.jp
     password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
     version: 3
+- name: 🇨🇳 TW-tuic | 8-1
+  server: www2.dtku44.xyz
+  port: 11224
+  type: tuic
+  uuid: 285524a5-18ae-4bf4-8e89-473dfdc3a212
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  disable-sni: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🇭🇰 HK-vless | 9-1
   server: cdnhk.huabuxiang.vip
   port: 2052
@@ -132,6 +144,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -148,6 +161,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -163,6 +177,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -178,6 +193,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -193,6 +209,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -208,6 +225,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -223,6 +241,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -238,6 +257,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -253,6 +273,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -268,6 +289,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -283,6 +305,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -298,6 +321,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -322,6 +346,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
+  - 🇨🇳 TW-tuic | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
