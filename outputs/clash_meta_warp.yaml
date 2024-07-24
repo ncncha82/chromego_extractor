@@ -125,32 +125,32 @@ proxies:
   - h3
 - name: 🇺🇸 US-Hysteria2 | 0-0
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 1-0
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 2-0
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 3-0
   type: hysteria2
-  server: 166.1.18.178
-  port: 23456
+  server: 207.90.239.157
+  port: 22334
   password: dongtaiwang.com
   fast-open: true
   sni: bing.com

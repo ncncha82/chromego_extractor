@@ -3,7 +3,7 @@ hysteria://38.135.52.192:23456/?protocol=udp&insecure=1&peer=bing.com&auth=dongt
 hysteria://38.135.52.192:23456/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 1-0
 hysteria://38.135.52.192:23456/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 2-0
 hysteria://38.135.52.192:23456/?protocol=udp&insecure=1&peer=bing.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇺🇸 US-Hysteria | 3-0
-hysteria2://dongtaiwang.com@hy3.3124845.xyz:443/?sni=hy3.3124845.xyz&insecure=0#🇺🇸 US-Hysteria2 | 0-0
-hysteria2://dongtaiwang.com@166.1.18.178:23456/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 1-0
-hysteria2://dongtaiwang.com@166.1.18.178:23456/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 2-0
-hysteria2://dongtaiwang.com@166.1.18.178:23456/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 3-0
+hysteria2://dongtaiwang.com@207.90.239.157:22334/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 0-0
+hysteria2://dongtaiwang.com@207.90.239.157:22334/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 1-0
+hysteria2://dongtaiwang.com@207.90.239.157:22334/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 2-0
+hysteria2://dongtaiwang.com@207.90.239.157:22334/?sni=bing.com&insecure=1#🇺🇸 US-Hysteria2 | 3-0
