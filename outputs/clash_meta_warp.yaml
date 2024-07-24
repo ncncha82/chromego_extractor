@@ -133,28 +133,28 @@ proxies:
   skip-cert-verify: false
 - name: 🇺🇸 US-Hysteria2 | 1-0
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 2-0
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 3-0
   type: hysteria2
-  server: hy3.3124845.xyz
-  port: 443
+  server: 166.1.18.178
+  port: 23456
   password: dongtaiwang.com
   fast-open: true
-  sni: hy3.3124845.xyz
-  skip-cert-verify: false
+  sni: bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
