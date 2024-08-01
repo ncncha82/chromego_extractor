@@ -69,9 +69,9 @@ proxies:
   udp: true
 - name: 🇺🇸 US-Hysteria | 0-0
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -83,9 +83,9 @@ proxies:
   - h3
 - name: 🇺🇸 US-Hysteria | 1-0
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -97,9 +97,9 @@ proxies:
   - h3
 - name: 🇺🇸 US-Hysteria | 2-0
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -111,9 +111,9 @@ proxies:
   - h3
 - name: 🇺🇸 US-Hysteria | 3-0
   type: hysteria
-  server: 104.166.125.163
-  port: 11001
-  ports: 11001
+  server: 166.1.221.169
+  port: 11223
+  ports: 11223
   auth-str: dongtaiwang.com
   up: 80
   down: 100
