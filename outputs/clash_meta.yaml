@@ -50,7 +50,7 @@ proxies:
   udp: true
 - name: 🇺🇸 US-Hysteria | 0-0
   type: hysteria
-  server: 166.1.221.169
+  server: 91.149.239.23
   port: 11223
   ports: 11223
   auth-str: dongtaiwang.com
