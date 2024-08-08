@@ -33,7 +33,7 @@ proxies:
     host: nijigen-works.jp
     password: LdjpJtNZK+2WhXfRY+FxR9sokcOYoddKAx8dN7q8FOI=
     version: 3
-- name: 🇩🇪 DE-vless | 9-1
+- name: 🇭🇰 HK-vless | 9-1
   server: cdnhk.huabuxiang.vip
   port: 2052
   client-fingerprint: random
@@ -144,7 +144,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -161,7 +161,7 @@ proxy-groups:
   proxies:
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -177,7 +177,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -193,7 +193,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -209,7 +209,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -225,7 +225,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -241,7 +241,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -257,7 +257,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -273,7 +273,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -289,7 +289,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -305,7 +305,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -321,7 +321,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
@@ -346,7 +346,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
-  - 🇩🇪 DE-vless | 9-1
+  - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
   - 🇺🇸 US-Hysteria | 2-0
