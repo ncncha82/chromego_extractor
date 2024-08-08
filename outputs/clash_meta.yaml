@@ -11,17 +11,6 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🏳 Unknown-ss | 4-1
-  type: ss
-  server: 23.170.40.77
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro=
-  plugin: shadow-tls
-  plugin-opts:
-    host: nijigen-works.jp
-    password: K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM=
-    version: 3
 - name: 🇨🇳 TW-ss | 8-1
   server: www2.dtku44.xyz
   type: ss
@@ -142,7 +131,6 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -159,7 +147,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -175,7 +162,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -191,7 +177,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -207,7 +192,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -223,7 +207,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -239,7 +222,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -255,7 +237,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -271,7 +252,6 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -287,7 +267,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -303,7 +282,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -319,7 +297,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
@@ -344,7 +321,6 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-ss | 4-1
   - 🇨🇳 TW-ss | 8-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
