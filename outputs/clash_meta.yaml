@@ -28,9 +28,9 @@ proxies:
   udp: true
 - name: 🇺🇸 US-Hysteria | 0-0
   type: hysteria
-  server: 91.149.239.23
-  port: 11223
-  ports: 11223
+  server: 104.192.224.138
+  port: 28850
+  ports: 20000-30000
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -92,8 +92,8 @@ proxies:
   skip-cert-verify: true
 - name: 🇺🇸 US-Hysteria2 | 1-0
   type: hysteria2
-  server: 207.90.239.157
-  port: 3400
+  server: 64.110.25.12
+  port: 50942
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
