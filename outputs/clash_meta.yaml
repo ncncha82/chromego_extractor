@@ -11,6 +11,17 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
+- name: 🇷🇺 RU-hysteria | 7-1
+  type: hysteria
+  server: 46.29.166.206
+  port: 22222
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🇭🇰 HK-vless | 9-1
   server: cdnhk.huabuxiang.vip
   port: 2052
@@ -120,6 +131,7 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -135,6 +147,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -149,6 +162,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -163,6 +177,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -177,6 +192,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -191,6 +207,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -205,6 +222,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -219,6 +237,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -233,6 +252,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -247,6 +267,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -261,6 +282,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -275,6 +297,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
@@ -298,6 +321,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇺 RU-hysteria | 7-1
   - 🇭🇰 HK-vless | 9-1
   - 🇺🇸 US-Hysteria | 0-0
   - 🇺🇸 US-Hysteria | 1-0
