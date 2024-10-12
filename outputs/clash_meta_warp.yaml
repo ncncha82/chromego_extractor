@@ -30,7 +30,7 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: ☁ WARP前置节点
-- name: 🇷🇺 RU-hysteria | 7-1
+- name: 🇷🇺 RU-hysteria | 6-1
   type: hysteria
   server: 46.29.166.206
   port: 100
@@ -151,7 +151,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -167,7 +167,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -183,7 +183,7 @@ proxy-groups:
   interval: 300
   strategy: consistent-hashing
   proxies:
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -199,7 +199,7 @@ proxy-groups:
   - ⚖ 负载均衡
   - ♻️ 自动选择
   - 🎯 国内网络
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -215,7 +215,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -231,7 +231,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -247,7 +247,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -263,7 +263,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -279,7 +279,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -295,7 +295,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -311,7 +311,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -327,7 +327,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -343,7 +343,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -359,7 +359,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -384,7 +384,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇷🇺 RU-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 6-1
   - 🇭🇰 HK-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
