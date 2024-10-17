@@ -118,7 +118,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: 185.22.152.93
-  port: 33713
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -126,7 +126,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 1-0
   type: hysteria2
   server: 185.22.152.93
-  port: 33713
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -134,7 +134,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 2-0
   type: hysteria2
   server: 185.22.152.93
-  port: 33713
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -142,7 +142,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 3-0
   type: hysteria2
   server: 185.22.152.93
-  port: 33713
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
