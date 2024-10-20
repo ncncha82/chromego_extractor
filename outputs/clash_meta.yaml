@@ -104,10 +104,10 @@ proxies:
   fast-open: true
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇳🇱 NL-Hysteria2 | 1-0
+- name: 🇷🇺 RU-Hysteria2 | 1-0
   type: hysteria2
-  server: 163.172.220.28
-  port: 11622
+  server: 185.22.152.93
+  port: 47382
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -141,7 +141,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: ♻️ 自动选择
@@ -157,7 +157,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📺 巴哈姆特
@@ -172,7 +172,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📺 哔哩哔哩
@@ -187,7 +187,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🌏 国内媒体
@@ -202,7 +202,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🌍 国外媒体
@@ -217,7 +217,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📲 电报信息
@@ -232,7 +232,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: Ⓜ️ 微软云盘
@@ -247,7 +247,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: Ⓜ️ 微软服务
@@ -262,7 +262,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🍎 苹果服务
@@ -277,7 +277,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📢 谷歌FCM
@@ -292,7 +292,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🤖 OpenAI
@@ -307,7 +307,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🎯 全球直连
@@ -331,7 +331,7 @@ proxy-groups:
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
-  - 🇳🇱 NL-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 1-0
   - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 rules:
