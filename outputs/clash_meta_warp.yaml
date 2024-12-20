@@ -54,7 +54,7 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇭🇰 HK-vless | 9-1
+- name: 🏳 Unknown-vless | 9-1
   server: cdnhk.huabuxiang.vip
   port: 2052
   client-fingerprint: random
@@ -166,7 +166,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -183,7 +183,7 @@ proxy-groups:
   proxies:
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -200,7 +200,7 @@ proxy-groups:
   proxies:
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -217,7 +217,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -234,7 +234,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -251,7 +251,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -268,7 +268,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -285,7 +285,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -302,7 +302,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -319,7 +319,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -336,7 +336,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -353,7 +353,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -370,7 +370,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -387,7 +387,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
@@ -413,7 +413,7 @@ proxy-groups:
   - ☁ WARP
   - 🇩🇪 DE-hysteria | 6-1
   - 🇫🇷 FR-hysteria | 7-1
-  - 🇭🇰 HK-vless | 9-1
+  - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
