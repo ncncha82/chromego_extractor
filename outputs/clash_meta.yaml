@@ -23,15 +23,16 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: 🇫🇷 FR-hysteria | 7-1
+- name: 🇷🇺 RU-hysteria | 7-1
   type: hysteria
-  server: 195.154.184.5
-  port: 22787
+  server: 185.22.155.71
+  port: 15424
   ports: 30000-40000
   auth_str: dongtaiwang.com
+  obfs: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
+  sni: www.bing.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -145,7 +146,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -162,7 +163,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -178,7 +179,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -194,7 +195,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -210,7 +211,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -226,7 +227,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -242,7 +243,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -258,7 +259,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -274,7 +275,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -290,7 +291,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -306,7 +307,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -322,7 +323,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
@@ -347,7 +348,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸 US-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
+  - 🇷🇺 RU-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
