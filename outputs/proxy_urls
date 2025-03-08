@@ -1,10 +1,10 @@
 hysteria://208.87.243.151:17549/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇺🇸 US-hysteria | 6-1
-hysteria://185.22.155.71:63717/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=dongtaiwang.com#🇷🇺 RU-hysteria | 7-1
+hysteria://185.22.155.71:24342/?protocol=udp&insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇷🇺 RU-hysteria | 7-1
 vless://9e374288-81ae-404d-859f-92a1f347623a@cdnhk.huabuxiang.vip:2052?encryption=none&flow=&security=none&type=ws&serviceName=&host=worker-rough-shadow-f478.kilode6169.workers.dev&path=/?ed=2048#🏳 Unknown-vless | 9-1
-hysteria://185.22.155.71:63717/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 0-0
-hysteria://185.22.155.71:63717/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 1-0
-hysteria://185.22.155.71:63717/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 2-0
-hysteria://185.22.155.71:63717/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 3-0
+hysteria://185.22.155.71:24342/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 0-0
+hysteria://185.22.155.71:24342/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 1-0
+hysteria://185.22.155.71:24342/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 2-0
+hysteria://185.22.155.71:24342/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 3-0
 hysteria2://dongtaiwang.com@46.17.41.189:51224/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@46.17.41.189:51224/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 1-0
 hysteria2://dongtaiwang.com@46.17.41.189:51224/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 2-0

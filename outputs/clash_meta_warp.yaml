@@ -44,10 +44,8 @@ proxies:
 - name: 🇷🇺 RU-hysteria | 7-1
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
   auth_str: dongtaiwang.com
-  obfs: dongtaiwang.com
   alpn:
   - h3
   sni: www.bing.com
@@ -72,8 +70,8 @@ proxies:
 - name: 🇷🇺 RU-Hysteria | 0-0
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -86,8 +84,8 @@ proxies:
 - name: 🇷🇺 RU-Hysteria | 1-0
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -100,8 +98,8 @@ proxies:
 - name: 🇷🇺 RU-Hysteria | 2-0
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth-str: dongtaiwang.com
   up: 80
   down: 100
@@ -114,8 +112,8 @@ proxies:
 - name: 🇷🇺 RU-Hysteria | 3-0
   type: hysteria
   server: 185.22.155.71
-  port: 63717
-  ports: 40000-50000
+  port: 24342
+  ports: 24342
   auth-str: dongtaiwang.com
   up: 80
   down: 100
