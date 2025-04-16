@@ -141,7 +141,7 @@ proxies:
   port: 64816
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: 🇷🇺 RU-Hysteria2 | 1-0
   type: hysteria2
@@ -149,7 +149,7 @@ proxies:
   port: 32555
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: 🇷🇺 RU-Hysteria2 | 2-0
   type: hysteria2
@@ -157,7 +157,7 @@ proxies:
   port: 32555
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 - name: 🇷🇺 RU-Hysteria2 | 3-0
   type: hysteria2
@@ -165,7 +165,7 @@ proxies:
   port: 64816
   password: dongtaiwang.com
   fast-open: true
-  sni: apple.com
+  sni: www.bing.com
   skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
