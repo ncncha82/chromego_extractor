@@ -93,20 +93,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🇷🇺 RU-Hysteria | 1-0
-  type: hysteria
-  server: 185.22.155.71
-  port: 10803
-  ports: 10803
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇷🇺 RU-Hysteria | 2-0
   type: hysteria
   server: 185.22.155.71
@@ -138,7 +124,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 0-0
   type: hysteria2
   server: hy2.694463.xyz
-  port: 10011
+  port: 30033
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -146,7 +132,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 1-0
   type: hysteria2
   server: hy2.694463.xyz
-  port: 10011
+  port: 30033
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -154,7 +140,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 2-0
   type: hysteria2
   server: hy2.694463.xyz
-  port: 10011
+  port: 30033
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -162,7 +148,7 @@ proxies:
 - name: 🇷🇺 RU-Hysteria2 | 3-0
   type: hysteria2
   server: hy2.694463.xyz
-  port: 10011
+  port: 30033
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -179,7 +165,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -197,7 +182,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -215,7 +199,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -233,7 +216,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -251,7 +233,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -269,7 +250,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -287,7 +267,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -305,7 +284,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -323,7 +301,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -341,7 +318,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -359,7 +335,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -377,7 +352,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -395,7 +369,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -413,7 +386,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
@@ -440,7 +412,6 @@ proxy-groups:
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
   - 🇷🇺 RU-Hysteria | 0-0
-  - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
   - 🇷🇺 RU-Hysteria2 | 0-0
