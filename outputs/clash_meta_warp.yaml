@@ -79,6 +79,20 @@ proxies:
     headers:
       host: worker-rough-shadow-f478.kilode6169.workers.dev
   udp: true
+- name: 🇷🇺 RU-Hysteria | 0-0
+  type: hysteria
+  server: 185.22.155.71
+  port: 10803
+  ports: 10803
+  auth-str: dongtaiwang.com
+  up: 80
+  down: 100
+  fast-open: true
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇷🇺 RU-Hysteria | 1-0
   type: hysteria
   server: 185.22.155.71
@@ -121,7 +135,23 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
+- name: 🇷🇺 RU-Hysteria2 | 0-0
+  type: hysteria2
+  server: hy2.694463.xyz
+  port: 30033
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: 🇷🇺 RU-Hysteria2 | 1-0
+  type: hysteria2
+  server: hy2.694463.xyz
+  port: 30033
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇷🇺 RU-Hysteria2 | 2-0
   type: hysteria2
   server: hy2.694463.xyz
   port: 30033
@@ -148,10 +178,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: ♻️ 自动选择
   type: url-test
@@ -163,10 +196,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: ⚖ 负载均衡
   type: load-balance
@@ -178,10 +214,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: ☁ WARP前置节点
   type: select
@@ -193,10 +232,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📺 巴哈姆特
   type: select
@@ -208,10 +250,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📺 哔哩哔哩
   type: select
@@ -223,10 +268,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🌏 国内媒体
   type: select
@@ -238,10 +286,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🌍 国外媒体
   type: select
@@ -253,10 +304,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📲 电报信息
   type: select
@@ -268,10 +322,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: Ⓜ️ 微软云盘
   type: select
@@ -283,10 +340,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: Ⓜ️ 微软服务
   type: select
@@ -298,10 +358,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🍎 苹果服务
   type: select
@@ -313,10 +376,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 📢 谷歌FCM
   type: select
@@ -328,10 +394,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🤖 OpenAI
   type: select
@@ -343,10 +412,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 - name: 🎯 国内网络
   type: select
@@ -367,10 +439,13 @@ proxy-groups:
   - 🇺🇸 US-hysteria | 7-1
   - 🇷🇺 RU-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
+  - 🇷🇺 RU-Hysteria | 0-0
   - 🇷🇺 RU-Hysteria | 1-0
   - 🇷🇺 RU-Hysteria | 2-0
   - 🇷🇺 RU-Hysteria | 3-0
+  - 🇷🇺 RU-Hysteria2 | 0-0
   - 🇷🇺 RU-Hysteria2 | 1-0
+  - 🇷🇺 RU-Hysteria2 | 2-0
   - 🇷🇺 RU-Hysteria2 | 3-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 国内网络
