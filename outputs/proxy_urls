@@ -8,5 +8,5 @@ hysteria://185.22.155.71:10803/?protocol=udp&insecure=1&peer=apple.com&auth=dong
 hysteria://185.22.155.71:10803/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇷🇺 RU-Hysteria | 3-0
 hysteria2://dongtaiwang.com@45.129.2.108:50850/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 0-0
 hysteria2://dongtaiwang.com@46.17.41.217:30033/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 1-0
-hysteria2://dongtaiwang.com@46.29.163.171:30033/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 2-0
-hysteria2://dongtaiwang.com@46.29.163.171:30033/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 3-0
+hysteria2://dongtaiwang.com@45.129.2.248:23579/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 2-0
+hysteria2://dongtaiwang.com@45.129.2.248:23579/?sni=www.bing.com&insecure=1#🇷🇺 RU-Hysteria2 | 3-0
