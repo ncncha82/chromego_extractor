@@ -11,9 +11,9 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🇺🇸 US-hysteria | 6-1
+- name: 🏳 Unknown-hysteria | 6-1
   type: hysteria
-  server: 208.87.243.151
+  server: 2604:6600:2004::18b
   port: 38845
   auth_str: dongtaiwang.com
   alpn:
@@ -155,7 +155,7 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -173,7 +173,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -190,7 +190,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -207,7 +207,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -224,7 +224,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -241,7 +241,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -258,7 +258,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -275,7 +275,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -292,7 +292,7 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -309,7 +309,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -326,7 +326,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -343,7 +343,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -369,7 +369,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1

@@ -30,9 +30,9 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: ☁ WARP前置节点
-- name: 🇺🇸 US-hysteria | 6-1
+- name: 🏳 Unknown-hysteria | 6-1
   type: hysteria
-  server: 208.87.243.151
+  server: 2604:6600:2004::18b
   port: 38845
   auth_str: dongtaiwang.com
   alpn:
@@ -175,7 +175,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -193,7 +193,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -211,7 +211,7 @@ proxy-groups:
   interval: 300
   strategy: consistent-hashing
   proxies:
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -229,7 +229,7 @@ proxy-groups:
   - ⚖ 负载均衡
   - ♻️ 自动选择
   - 🎯 国内网络
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -247,7 +247,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -265,7 +265,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -283,7 +283,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -301,7 +301,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -319,7 +319,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -337,7 +337,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -355,7 +355,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🚀 节点选择
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -373,7 +373,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -391,7 +391,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -409,7 +409,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
@@ -436,7 +436,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 国内网络
   - ☁ WARP
-  - 🇺🇸 US-hysteria | 6-1
+  - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
   - 🏳 Unknown-vless | 9-1
