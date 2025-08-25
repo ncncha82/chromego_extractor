@@ -23,6 +23,19 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
+- name: 🏳 Unknown-tuic | 2-1
+  server: 2001:bc8:32d7:302::16
+  port: 34997
+  type: tuic
+  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
+  password: dongtaiwang.com
+  alpn:
+  - h3
+  sni: bing.com
+  skip-cert-verify: true
+  reduce-rtt: true
+  udp-relay-mode: native
+  congestion-controller: bbr
 - name: 🏳 Unknown-hysteria | 6-1
   type: hysteria
   server: 2604:6600:2004::18b
@@ -168,6 +181,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -187,6 +201,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -205,6 +220,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -223,6 +239,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -241,6 +258,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -259,6 +277,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -277,6 +296,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -295,6 +315,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -313,6 +334,7 @@ proxy-groups:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -331,6 +353,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -349,6 +372,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -367,6 +391,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -394,6 +419,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🏳 Unknown-hysteria2 | 0-1
+  - 🏳 Unknown-tuic | 2-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
