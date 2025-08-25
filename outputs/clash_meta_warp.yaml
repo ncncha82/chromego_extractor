@@ -33,7 +33,7 @@ proxies:
 - name: 🏳 Unknown-hysteria2 | 0-1
   type: hysteria2
   server: 2001:bc8:32d7:302::11
-  port: 33563
+  port: 20088
   password: dongtaiwang.com
   sni: apple.com
   skip-cert-verify: true
@@ -55,6 +55,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: 🏳 Unknown-hysteria2 | 3-1
+  type: hysteria2
+  server: 2001:bc8:32d7:302::17
+  port: 20088
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: 🏳 Unknown-hysteria | 6-1
   type: hysteria
   server: 2604:6600:2004::18b
@@ -202,6 +214,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -222,6 +235,7 @@ proxy-groups:
   proxies:
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -242,6 +256,7 @@ proxy-groups:
   proxies:
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -262,6 +277,7 @@ proxy-groups:
   - 🎯 国内网络
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -282,6 +298,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -302,6 +319,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -322,6 +340,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -342,6 +361,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -362,6 +382,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -382,6 +403,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -402,6 +424,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -422,6 +445,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -442,6 +466,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -462,6 +487,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
@@ -491,6 +517,7 @@ proxy-groups:
   - ☁ WARP
   - 🏳 Unknown-hysteria2 | 0-1
   - 🏳 Unknown-tuic | 2-1
+  - 🏳 Unknown-hysteria2 | 3-1
   - 🏳 Unknown-hysteria | 6-1
   - 🇺🇸 US-hysteria | 7-1
   - 🇳🇱 NL-hysteria | 8-1
