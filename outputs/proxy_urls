@@ -1,9 +1,10 @@
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::11:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 0-1
 hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 3-1
 hysteria://2001:bc8:32d7:158::4:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 6-1
-hysteria://62.210.127.217:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 7-1
+hysteria://62.210.10.186:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 7-1
+hysteria://2001:bc8:32d7:158::2:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 8-1
 vless://9e374288-81ae-404d-859f-92a1f347623a@cdnhk.huabuxiang.vip:2052?encryption=none&flow=&security=none&type=ws&serviceName=&host=worker-rough-shadow-f478.kilode6169.workers.dev&path=/?ed=2048#🏳 Unknown-vless | 9-1
-hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇳🇱 NL-Hysteria | 0-0
-hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇳🇱 NL-Hysteria | 1-0
-hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇳🇱 NL-Hysteria | 2-0
-hysteria://109.104.153.91:37519/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇳🇱 NL-Hysteria | 3-0
+hysteria://109.104.154.97:48429/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇱🇺 LU-Hysteria | 0-0
+hysteria://109.104.154.97:48429/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇱🇺 LU-Hysteria | 1-0
+hysteria://109.104.154.97:48429/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇱🇺 LU-Hysteria | 2-0
+hysteria://109.104.154.97:48429/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🇱🇺 LU-Hysteria | 3-0
