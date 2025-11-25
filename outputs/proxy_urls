@@ -1,5 +1,4 @@
-hysteria2://dongtaiwang.com@2001:bc8:32d7:302::11:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 0-1
-hysteria2://dongtaiwang.com@2001:bc8:32d7:302::17:20088/?sni=apple.com&insecure=1#🏳 Unknown-hysteria2 | 3-1
+hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 0-1
 hysteria://2001:bc8:32d7:158::4:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 6-1
 hysteria://62.210.10.186:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 7-1
 hysteria://2001:bc8:32d7:158::2:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 8-1
