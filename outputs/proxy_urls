@@ -1,7 +1,6 @@
 hysteria://2001:bc8:32d7:17b::2:11000/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 0-1
-hysteria://2001:bc8:32d7:158::4:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 6-1
-hysteria://62.210.10.186:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 7-1
-hysteria://2001:bc8:32d7:158::2:50011/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 8-1
+hysteria://2001:bc8:32d7:902::3:26691/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🏳 Unknown-hysteria | 6-1
+hysteria://62.210.196.68:26691/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=11 Mbps&downmbps=55 Mbps&alpn=h3&obfs=#🇫🇷 FR-hysteria | 7-1
 vless://9e374288-81ae-404d-859f-92a1f347623a@cdnhk.huabuxiang.vip:2052?encryption=none&flow=&security=none&type=ws&serviceName=&host=worker-rough-shadow-f478.kilode6169.workers.dev&path=/?ed=2048#🏳 Unknown-vless | 9-1
 hysteria://[2604:6600/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🏳 Unknown-Hysteria | 0-0
 hysteria://[2604:6600/?protocol=udp&insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#🏳 Unknown-Hysteria | 1-0
