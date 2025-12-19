@@ -11,55 +11,6 @@ profile:
   tracing: true
 global-client-fingerprint: chrome
 proxies:
-- name: 🏳 Unknown-hysteria | 0-1
-  type: hysteria
-  server: 2001:bc8:32d7:17b::2
-  port: 11000
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🏳 Unknown-tuic | 2-1
-  server: 2001:bc8:32d7:302::16
-  port: 34997
-  type: tuic
-  uuid: 8687b6e0-ef24-4cd2-bcd2-02d3732bf554
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: 🏳 Unknown-hysteria | 6-1
-  type: hysteria
-  server: 2001:bc8:32d7:902::3
-  port: 26691
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: 🇫🇷 FR-hysteria | 7-1
-  type: hysteria
-  server: 62.210.196.68
-  port: 26691
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
 - name: 🏳 Unknown-vless | 9-1
   server: cdnhk.huabuxiang.vip
   port: 2052
@@ -75,232 +26,80 @@ proxies:
     headers:
       host: worker-rough-shadow-f478.kilode6169.workers.dev
   udp: true
-- name: 🏳 Unknown-Hysteria | 0-0
-  type: hysteria
-  server: '[2604'
-  port: 6600
-  ports: 6600
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🏳 Unknown-Hysteria | 1-0
-  type: hysteria
-  server: '[2604'
-  port: 6600
-  ports: 6600
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🏳 Unknown-Hysteria | 2-0
-  type: hysteria
-  server: '[2604'
-  port: 6600
-  ports: 6600
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🏳 Unknown-Hysteria | 3-0
-  type: hysteria
-  server: '[2604'
-  port: 6600
-  ports: 6600
-  auth-str: dongtaiwang.com
-  up: 80
-  down: 100
-  fast-open: true
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 📺 巴哈姆特
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 📺 哔哩哔哩
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 🌏 国内媒体
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: Ⓜ️ 微软云盘
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 📢 谷歌FCM
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 🤖 OpenAI
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -315,15 +114,7 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🏳 Unknown-hysteria | 0-1
-  - 🏳 Unknown-tuic | 2-1
-  - 🏳 Unknown-hysteria | 6-1
-  - 🇫🇷 FR-hysteria | 7-1
   - 🏳 Unknown-vless | 9-1
-  - 🏳 Unknown-Hysteria | 0-0
-  - 🏳 Unknown-Hysteria | 1-0
-  - 🏳 Unknown-Hysteria | 2-0
-  - 🏳 Unknown-Hysteria | 3-0
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
